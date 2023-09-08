@@ -331,7 +331,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!61 &444887080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444887078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.76, y: -5.47, z: 0}
+  m_LocalPosition: {x: 37.744, y: -5.525, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -829,7 +829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634956305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.04, y: -7.4, z: 0}
+  m_LocalPosition: {x: 44.98, y: -7.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a72f66a7627ec047916957a791370a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy_Object: {fileID: 634956305}
+  Enemy_Object: {fileID: 0}
 --- !u!114 &634956308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTotal: 1
-  Speed: 5
+  Speed: -5
   direction: 1
   rb: {fileID: 0}
 --- !u!50 &634956309
@@ -886,7 +886,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!61 &634956310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22292,7 +22292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353431290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.04, y: -6.89, z: 0.0936572}
+  m_LocalPosition: {x: 46.78, y: -6.89, z: 0.0936572}
   m_LocalScale: {x: 0.2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23026,7 +23026,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050012986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: -7.4, z: 0}
+  m_LocalPosition: {x: 39.991, y: -7.3500004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23046,7 +23046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a72f66a7627ec047916957a791370a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy_Object: {fileID: 2050012986}
+  Enemy_Object: {fileID: 0}
 --- !u!114 &2050012989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23083,7 +23083,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!61 &2050012991
 BoxCollider2D:
   m_ObjectHideFlags: 0

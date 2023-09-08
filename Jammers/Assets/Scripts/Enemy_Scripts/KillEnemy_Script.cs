@@ -9,7 +9,7 @@ public class KillEnemy_Script : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(Enemy_Object);
+            Destroy(gameObject);
         }
     }
 }
